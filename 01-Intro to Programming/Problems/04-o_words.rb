@@ -1,0 +1,8 @@
+def o_words(sentence)
+return  sentence.split(" ").select { |e| e.include?("o") }
+
+end
+
+print o_words("How did you do that?") #=> ["How", "you", "do"]
+puts
+
